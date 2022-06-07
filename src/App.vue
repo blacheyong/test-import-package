@@ -9,8 +9,12 @@ import TheWelcome from './components/TheWelcome.vue'
 
     <div class="wrapper">
       <HelloWorld msg="You did it!" />
-      <base-button variant="primary" dark-bg>Test</base-button>
-      <base-icon icon="icon-add" width="16" fill="#fff"/>
+      
+      <div class="row">
+        <div class="col"><base-button variant="primary" icon="icon-edit" icon-position="left">Test</base-button></div>
+        <div class="col"><base-chip>Test components</base-chip></div>
+      </div>
+      
     </div>
   </header>
 
